@@ -114,7 +114,8 @@ class ReceiptController extends Controller
         foreach ($formDetails as $i => $formDetail) {
             //loading the models if they are not new
             if (isset($formDetail['id']) && isset($formDetail['updateType']) && $formDetail['updateType'] != ReceiptDetail::UPDATE_TYPE_CREATE) {
-                $modelDetail = ReceiptDetail::findOne($formDetail['id']);
+                //making sure that it is actually a child of the main model
+                $modelDetail = ReceiptDetail::findOne(['id' => $formDetail['id'], 'receipt_id' => $model->id]);
                 $modelDetail->setScenario(ReceiptDetail::SCENARIO_BATCH_UPDATE);
                 $modelDetail->setAttributes($formDetail);
                 $modelDetails[$i] = $modelDetail;
