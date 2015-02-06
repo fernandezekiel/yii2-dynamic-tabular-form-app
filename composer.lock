@@ -102,16 +102,16 @@
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.1.60",
+            "version": "3.1.61",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/jquery.inputmask.git",
-                "reference": "da0a365b45b3040219a83c5abb5fcd3a51d7ed89"
+                "reference": "f2c086411d2557fc485c47afb3cecfa6c1de9ee2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/da0a365b45b3040219a83c5abb5fcd3a51d7ed89",
-                "reference": "da0a365b45b3040219a83c5abb5fcd3a51d7ed89",
+                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/f2c086411d2557fc485c47afb3cecfa6c1de9ee2",
+                "reference": "f2c086411d2557fc485c47afb3cecfa6c1de9ee2",
                 "shasum": ""
             },
             "require": {
@@ -375,12 +375,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "a1f76848b84ea8ff7094c0987849f4283372b423"
+                "reference": "b95c0de6191b2c438eecad4e6cffca0fe4c7c640"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/a1f76848b84ea8ff7094c0987849f4283372b423",
-                "reference": "a1f76848b84ea8ff7094c0987849f4283372b423",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/b95c0de6191b2c438eecad4e6cffca0fe4c7c640",
+                "reference": "b95c0de6191b2c438eecad4e6cffca0fe4c7c640",
                 "shasum": ""
             },
             "require": {
@@ -456,7 +456,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2015-02-03 21:33:44"
+            "time": "2015-02-05 14:24:17"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
