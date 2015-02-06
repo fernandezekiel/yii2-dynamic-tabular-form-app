@@ -43,14 +43,14 @@ use yii\widgets\ActiveForm;
                 <?= $form->field($modelDetail, "[$i]item_name") ?>
             </div>
             <div class="col-md-2">
-                <?= Html::button('x', ['class' => 'delete-button', 'data-target' => "receipt-detail-$i"]) ?>
+                <?= Html::button('x', ['class' => 'delete-button btn btn-danger', 'data-target' => "receipt-detail-$i"]) ?>
             </div>
         </div>
     <?php endforeach; ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
-        <?= Html::submitButton('Add row', ['name' => 'addRow', 'value' => 'true']) ?>
+        <?= Html::submitButton('Add row', ['name' => 'addRow', 'value' => 'true', 'class' => 'btn btn-info']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

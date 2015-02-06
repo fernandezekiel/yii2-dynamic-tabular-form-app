@@ -20,6 +20,8 @@ php yii migrate
 http://localhost/yii2-dynamic-tabular-form-app/web/?r=receipt
 ```
 
+![Form](http://snag.gy/dMPxm.jpg)
+
 Running Tests
 -----------
 TBD
