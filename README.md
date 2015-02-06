@@ -12,13 +12,13 @@ Receipt Controller
 
 After installation:
 - run the migration using
-    ~~~
-    php yii migrate
-    ~~~
+```
+php yii migrate
+```
 - Access the receipt CRUD in
-    ~~~
-    http://localhost/yii2-dynamic-tabular-form-app/web/?r=receipt
-    ~~~
+```
+http://localhost/yii2-dynamic-tabular-form-app/web/?r=receipt
+```
 
 Running Tests
 -----------
