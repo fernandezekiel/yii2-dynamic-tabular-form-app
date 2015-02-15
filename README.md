@@ -24,4 +24,18 @@ http://localhost/yii2-dynamic-tabular-form-app/web/?r=receipt
 
 Running Tests
 -----------
-TBD
+Requirements
+- Firefox
+- Selenium
+
+Configuration
+modify the `tests/codeception/acceptance.suite.yml`
+```
+    config:
+        WebDriver:
+            url: 'http://127.0.0.1/yii2-dynamic-tabular-form-app/web/'
+            browser: firefox
+            restart: true
+            clear_cookies: true
+```
+with your necessary settings
